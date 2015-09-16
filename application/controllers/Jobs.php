@@ -6,7 +6,7 @@ class Jobs extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('register_model');
+		$this->load->model('Register_model');
 		$this->load->model('user_model');
 		$this->load->model('job_model');
 		$this->load->library('session');
