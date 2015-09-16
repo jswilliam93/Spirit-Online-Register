@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Job_model extends CI_Model {
+class job_model extends CI_Model {
 
 	public function __construct()
 	{
